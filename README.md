@@ -7,6 +7,5 @@ Para executar os testes, utilize os comando abaixo:
 
 ```
 gcc main.c -o test -lm
-```
 ./test sistema.txt
 ```
