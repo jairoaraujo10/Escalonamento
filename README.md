@@ -6,6 +6,6 @@ Implementação de algoritmos de escalonamento para softwares em tempo real.
 Para executar os testes, utilize os comando abaixo:
 
 ```
-gcc main.c -o test -lm
+gcc main.c -o main -lm
 ./test test/teste.txt
 ```
