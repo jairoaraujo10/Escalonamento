@@ -33,6 +33,7 @@ Tarefas *carregaArquivo(char *argv[]) {
     t->n = -1;
     while (getline(&line, &len, file) > 0) t->n++;
     t->tarefas = (Tarefa *) calloc(t->n, sizeof(Tarefa));
+    fclose(file);
 
     file = fopen(argv[1], "r");
     getline(&line, &len, file);
