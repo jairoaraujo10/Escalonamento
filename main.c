@@ -169,7 +169,7 @@ Ciclo *rateMonotonic(Tarefas *t) {
 
 Ciclo *deadlineMonotonic(Tarefas *t) {
     int i, j, k, l;
-    printf("Rate Monotonic - ");
+    printf("Deadline Monotonic - ");
     testDM(t);
 
     Ciclo *c = criarHiperciclo(t);
